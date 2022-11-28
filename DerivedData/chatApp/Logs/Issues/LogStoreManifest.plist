@@ -5,7 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>EDF3CC9B-C353-4EEB-B1FB-00AF89706DFF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>EDF3CC9B-C353-4EEB-B1FB-00AF89706DFF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>chatApp-dumyffjtwubnblelmyccgvzwkyvp</string>
+			<key>timeStartedRecording</key>
+			<real>691324834.640872</real>
+			<key>timeStoppedRecording</key>
+			<real>691324845.090446</real>
+			<key>title</key>
+			<string>Build target chatApp</string>
+			<key>uniqueIdentifier</key>
+			<string>EDF3CC9B-C353-4EEB-B1FB-00AF89706DFF</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

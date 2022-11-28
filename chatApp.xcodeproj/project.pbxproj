@@ -101,8 +101,8 @@
 			children = (
 				2504C6EF2934BF0300695680 /* AppDelegate.swift */,
 				2504C6F12934BF0300695680 /* SceneDelegate.swift */,
-				2504C6F32934BF0300695680 /* ViewController.swift */,
 				2504C6F52934BF0300695680 /* Main.storyboard */,
+				2504C6F32934BF0300695680 /* ViewController.swift */,
 				2504C6F82934BF0600695680 /* Assets.xcassets */,
 				2504C6FA2934BF0600695680 /* LaunchScreen.storyboard */,
 				2504C6FD2934BF0600695680 /* Info.plist */,
