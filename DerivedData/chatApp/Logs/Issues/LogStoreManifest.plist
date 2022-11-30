@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>EDF3CC9B-C353-4EEB-B1FB-00AF89706DFF</key>
+		<key>5224F33A-2731-498A-85E3-E6941BB7F360</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>EDF3CC9B-C353-4EEB-B1FB-00AF89706DFF.xcactivitylog</string>
+			<string>5224F33A-2731-498A-85E3-E6941BB7F360.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>chatApp-dumyffjtwubnblelmyccgvzwkyvp</string>
 			<key>timeStartedRecording</key>
-			<real>691324834.640872</real>
+			<real>691502437.60328102</real>
 			<key>timeStoppedRecording</key>
-			<real>691324845.090446</real>
+			<real>691502438.305516</real>
 			<key>title</key>
 			<string>Build target chatApp</string>
 			<key>uniqueIdentifier</key>
-			<string>EDF3CC9B-C353-4EEB-B1FB-00AF89706DFF</string>
+			<string>5224F33A-2731-498A-85E3-E6941BB7F360</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
