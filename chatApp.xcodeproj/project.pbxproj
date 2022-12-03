@@ -16,6 +16,7 @@
 		2504C7112934BF0600695680 /* chatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504C7102934BF0600695680 /* chatAppUITests.swift */; };
 		2504C7132934BF0600695680 /* chatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504C7122934BF0600695680 /* chatAppUITestsLaunchTests.swift */; };
 		25230CC2293B69CC00330E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25230CC1293B69CC00330E20 /* ViewController.swift */; };
+		25230CC4293B71DF00330E20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25230CC3293B71DF00330E20 /* GoogleService-Info.plist */; };
 		25D431512937726200019BDF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D431502937726200019BDF /* LoginViewController.swift */; };
 		25D431532937726D00019BDF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D431522937726D00019BDF /* RegisterViewController.swift */; };
 		25D431552937728000019BDF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D431542937728000019BDF /* ChatViewController.swift */; };
@@ -55,6 +56,7 @@
 		2504C7102934BF0600695680 /* chatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatAppUITests.swift; sourceTree = "<group>"; };
 		2504C7122934BF0600695680 /* chatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		25230CC1293B69CC00330E20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25230CC3293B71DF00330E20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		25D431502937726200019BDF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		25D431522937726D00019BDF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		25D431542937728000019BDF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				2504C6F82934BF0600695680 /* Assets.xcassets */,
 				2504C6FA2934BF0600695680 /* LaunchScreen.storyboard */,
 				2504C6FD2934BF0600695680 /* Info.plist */,
+				25230CC3293B71DF00330E20 /* GoogleService-Info.plist */,
 			);
 			path = chatApp;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2504C6FC2934BF0600695680 /* LaunchScreen.storyboard in Resources */,
+				25230CC4293B71DF00330E20 /* GoogleService-Info.plist in Resources */,
 				2504C6F92934BF0600695680 /* Assets.xcassets in Resources */,
 				2504C6F72934BF0300695680 /* Main.storyboard in Resources */,
 			);
