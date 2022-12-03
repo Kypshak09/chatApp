@@ -5,7 +5,92 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>1571AAB3-8679-4100-B954-CEF01D154305</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>1571AAB3-8679-4100-B954-CEF01D154305.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-chatApp-cjsdenchpgnwoagnaqcbsqgnjnsu</string>
+			<key>timeStartedRecording</key>
+			<real>691758831.40156698</real>
+			<key>timeStoppedRecording</key>
+			<real>691758835.20960999</real>
+			<key>title</key>
+			<string>Build target Pods-chatApp</string>
+			<key>uniqueIdentifier</key>
+			<string>1571AAB3-8679-4100-B954-CEF01D154305</string>
+		</dict>
+		<key>9F254280-AC68-43D0-9EFD-7AD3BE14BC34</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>9F254280-AC68-43D0-9EFD-7AD3BE14BC34.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>CLTypingLabel-cjsdenchpgnwoagnaqcbsqgnjnsu</string>
+			<key>timeStartedRecording</key>
+			<real>691759817.17993104</real>
+			<key>timeStoppedRecording</key>
+			<real>691759828.49713695</real>
+			<key>title</key>
+			<string>Build target CLTypingLabel</string>
+			<key>uniqueIdentifier</key>
+			<string>9F254280-AC68-43D0-9EFD-7AD3BE14BC34</string>
+		</dict>
+		<key>A68D20CA-80EE-4BA3-AF15-4D94B403D6F0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>A68D20CA-80EE-4BA3-AF15-4D94B403D6F0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>chatApp-dumyffjtwubnblelmyccgvzwkyvp</string>
+			<key>timeStartedRecording</key>
+			<real>691759882.73361099</real>
+			<key>timeStoppedRecording</key>
+			<real>691759883.40303099</real>
+			<key>title</key>
+			<string>Build target chatApp</string>
+			<key>uniqueIdentifier</key>
+			<string>A68D20CA-80EE-4BA3-AF15-4D94B403D6F0</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

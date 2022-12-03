@@ -2,32 +2,21 @@
 //  ViewController.swift
 //  chatApp
 //
-//  Created by Amir Zhunussov on 28.11.2022.
+//  Created by Amir Zhunussov on 03.12.2022.
 //
 
 import UIKit
-
-
-
+import CLTypingLabel
 class ViewController: UIViewController {
 
-    @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var labelText: CLTypingLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        textLabel.text = ""
-        var charIndex = 0.0
-        let titleText = "🗣 Chatssenger"
-        for i in titleText {
-            Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { (timer) in
-                self.textLabel.text?.append(i)
-            }
-            charIndex += 1
-        }
+
+        labelText.text = "🗣 Chatssenger"
         
     }
-
+    
 
 }
-
