@@ -1,11 +1,7 @@
-//
-//  ChatViewController.swift
-//  chatApp
-//
-//  Created by Amir Zhunussov on 30.11.2022.
-//
+
 
 import UIKit
+import FirebaseAuth
 
 class ChatViewController: UIViewController {
 
@@ -15,11 +11,23 @@ class ChatViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
+        title = "🗣 Chatssenger"
+        navigationItem.hidesBackButton = true
     }
    
     
     @IBAction func sendPressed(_ sender: UIButton) {
     }
+    
+    @IBAction func logOutButton(_ sender: UIBarButtonItem) {
+    do {
+        try Auth.auth().signOut()
+        navigationController?.popToRootViewController(animated: true)
+    } catch let signOutError as NSError {
+      print("Error signing out: %@", signOutError)
+    }
+      
+        
+    }
+    
 }

@@ -238,7 +238,13 @@
                         <viewLayoutGuide key="safeArea" id="AB3-0k-7lg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ULc-Gu-xUo" userLabel="navigation item"/>
+                    <navigationItem key="navigationItem" id="ULc-Gu-xUo" userLabel="navigation item">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" id="waY-dj-i6y">
+                            <connections>
+                                <action selector="ogOutButton:" destination="QF3-rt-KER" id="WhW-n6-kcW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="messageTextField" destination="BYh-C1-7Us" id="bLE-w2-E1a"/>
                         <outlet property="tableVIew" destination="IvG-Ta-Lzk" id="jaC-dS-tqy"/>
@@ -268,10 +274,12 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="qYY-o0-hNd"/>
+        <designable name="qYY-o0-hNd">
+            <size key="intrinsicContentSize" width="221" height="36"/>
+        </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="s69-jo-1TU"/>
+        <segue reference="tb2-Yl-EHd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Miami Dolphins" width="1440" height="900"/>

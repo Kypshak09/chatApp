@@ -1,9 +1,4 @@
-//
-//  RegisterViewController.swift
-//  chatApp
-//
-//  Created by Amir Zhunussov on 30.11.2022.
-//
+
 
 import UIKit
 import FirebaseAuth
