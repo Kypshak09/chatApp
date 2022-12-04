@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>280E72D4-D73C-4D9C-B6BF-7DCE32367C68</key>
+		<key>B3A97887-244E-4680-8C9F-5F49AF48879F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>280E72D4-D73C-4D9C-B6BF-7DCE32367C68.xcactivitylog</string>
+			<string>B3A97887-244E-4680-8C9F-5F49AF48879F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Run chatApp</string>
 			<key>timeStartedRecording</key>
-			<real>691760583.56781602</real>
+			<real>691767265.931252</real>
 			<key>timeStoppedRecording</key>
-			<real>691760596.64172006</real>
+			<real>691767326.64295805</real>
 			<key>title</key>
 			<string>Run chatApp</string>
 			<key>uniqueIdentifier</key>
-			<string>280E72D4-D73C-4D9C-B6BF-7DCE32367C68</string>
+			<string>B3A97887-244E-4680-8C9F-5F49AF48879F</string>
 		</dict>
 	</dict>
 </dict>
