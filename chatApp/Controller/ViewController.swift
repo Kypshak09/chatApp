@@ -10,7 +10,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         labelText.text = "🗣 Chatssenger"
-        
     }
     
 

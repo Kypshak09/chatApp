@@ -2,6 +2,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseFirestore
 
 class ChatViewController: UIViewController {
 
@@ -9,10 +10,9 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextField: UITextField!
     
-    var message: [Message] = [
-    Message(name: "a@b", body: "rama"),
-    Message(name: "b@a", body: "amir")
-    ]
+    let db = Firestore.firestore()
+    
+    var message: [Message] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,20 +20,58 @@ class ChatViewController: UIViewController {
         title = Constant.appName
         navigationItem.hidesBackButton = true
         tableView.register(UINib(nibName: Constant.cellNibName, bundle: nil), forCellReuseIdentifier: Constant.cellIdentifier)
+        
+        loadMessage()
+    }
+    
+    func loadMessage() {
+        message = []
+        
+        db.collection(Constant.FStore.collectionName).getDocuments { querySnapshot, error in
+            if let e = error {
+                print("There is some retreiving error. \(e)")
+            } else {
+                if let snapshotDocuments = querySnapshot?.documents {
+                    for doc in snapshotDocuments {
+                        let data = doc.data()
+                        if let sender = data[Constant.FStore.senderField] as? String, let messageBody = data[Constant.FStore.bodyField] as? String {
+                            let newMessage = Message(name: sender, body: messageBody)
+                            self.message.append(newMessage)
+                            
+                            DispatchQueue.main.async {
+                                self.tableView.reloadData()
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
    
     
     @IBAction func sendPressed(_ sender: UIButton) {
+        
+        if let messageBody = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
+            db.collection(Constant.FStore.collectionName).addDocument(data: [Constant.FStore.senderField: messageSender, Constant.FStore.bodyField: messageBody]) { error in
+                if let e = error {
+                    print("There was an issue saving data to firestore, \(e)")
+                } else {
+                    print("Successfully saved data.")
+                }
+            }
+        }
+        
     }
     
     @IBAction func logOutButton(_ sender: UIBarButtonItem) {
     
         do {
-            try Auth.auth().signOut()
-            navigationController?.popToRootViewController(animated: true)
-    }       catch let signOutError as NSError {
-            print("Error signing out: %@", signOutError)
-    }
+                    try Auth.auth().signOut()
+                    navigationController?.popToRootViewController(animated: true)
+                    
+                } catch let signOutError as NSError {
+                  print ("Error signing out: %@", signOutError)
+                }
       
         
     }
