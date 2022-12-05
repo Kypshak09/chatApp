@@ -274,9 +274,7 @@
         </scene>
     </scenes>
     <designables>
-        <designable name="qYY-o0-hNd">
-            <size key="intrinsicContentSize" width="221" height="36"/>
-        </designable>
+        <designable name="qYY-o0-hNd"/>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="tb2-Yl-EHd"/>

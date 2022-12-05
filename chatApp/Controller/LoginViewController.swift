@@ -32,7 +32,7 @@ class LoginViewController: UIViewController {
                 alert.addAction(action)
                 self.present(alert, animated: true, completion: nil)
             } else {
-                self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                self.performSegue(withIdentifier: Constant.loginSegue, sender: self)
             }
         }
     }

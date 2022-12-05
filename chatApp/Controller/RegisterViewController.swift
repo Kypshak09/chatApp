@@ -30,7 +30,7 @@ class RegisterViewController: UIViewController {
                 alert.addAction(action)
                 self.present(alert, animated: true, completion: nil)
             } else {
-                self.performSegue(withIdentifier: "RegisterToChat", sender:self)
+                self.performSegue(withIdentifier: Constant.registerSegue, sender:self)
             }
             }
         }
