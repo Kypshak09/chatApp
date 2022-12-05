@@ -247,7 +247,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="messageTextField" destination="BYh-C1-7Us" id="bLE-w2-E1a"/>
-                        <outlet property="tableVIew" destination="IvG-Ta-Lzk" id="jaC-dS-tqy"/>
+                        <outlet property="tableView" destination="IvG-Ta-Lzk" id="jaC-dS-tqy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cM3-T9-8SW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -6,7 +6,7 @@ import FirebaseAuth
 class ChatViewController: UIViewController {
 
     
-    @IBOutlet weak var tableVIew: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextField: UITextField!
     
     var message: [Message] = [
@@ -16,10 +16,10 @@ class ChatViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableVIew.delegate = self
-        tableVIew.dataSource = self
+        tableView.dataSource = self
         title = Constant.appName
         navigationItem.hidesBackButton = true
+        tableView.register(UINib(nibName: Constant.cellNibName, bundle: nil), forCellReuseIdentifier: Constant.cellIdentifier)
     }
    
     
@@ -46,14 +46,8 @@ extension ChatViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constant.cellIdentifier, for: indexPath)
-        cell.textLabel?.text = message[indexPath.row].body
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constant.cellIdentifier, for: indexPath) as! MessageCell
+        cell.label.text = message[indexPath.row].body
         return cell
-    }
-}
-
-extension ChatViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
     }
 }
