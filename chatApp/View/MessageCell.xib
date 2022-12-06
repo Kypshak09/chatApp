@@ -29,6 +29,13 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXv-V5-v6x">
+                                        <rect key="frame" x="159" y="26" width="99" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
@@ -58,6 +65,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="dateOfMessage" destination="kXv-V5-v6x" id="NJs-dP-Any"/>
                 <outlet property="label" destination="aR0-V3-6Zx" id="em5-IO-1rw"/>
                 <outlet property="messageBubble" destination="3gN-lE-i5x" id="r1f-bw-8jC"/>
                 <outlet property="rightImageView" destination="CUY-zJ-ser" id="Sju-hw-Vgt"/>

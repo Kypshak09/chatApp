@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>01E081BC-2862-49B7-AEDD-891685172E84</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>01E081BC-2862-49B7-AEDD-891685172E84.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>chatApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>chatApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build chatApp</string>
+			<key>timeStartedRecording</key>
+			<real>692014839.45549905</real>
+			<key>timeStoppedRecording</key>
+			<real>692014855.19998801</real>
+			<key>title</key>
+			<string>Build chatApp</string>
+			<key>uniqueIdentifier</key>
+			<string>01E081BC-2862-49B7-AEDD-891685172E84</string>
+		</dict>
 		<key>04236294-7573-48F7-A688-B406D77AC6F4</key>
 		<dict>
 			<key>className</key>
@@ -40,7 +74,7 @@
 			<key>uniqueIdentifier</key>
 			<string>04236294-7573-48F7-A688-B406D77AC6F4</string>
 		</dict>
-		<key>04D4F69B-AE79-4D5E-A811-F2D9667A3067</key>
+		<key>702B22AB-D26C-4B6D-A96E-44E1E3B4FEC2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>04D4F69B-AE79-4D5E-A811-F2D9667A3067.xcactivitylog</string>
+			<string>702B22AB-D26C-4B6D-A96E-44E1E3B4FEC2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +100,15 @@
 			<key>signature</key>
 			<string>Build chatApp</string>
 			<key>timeStartedRecording</key>
-			<real>692013798.29157901</real>
+			<real>692014944.14595795</real>
 			<key>timeStoppedRecording</key>
-			<real>692013803.74306595</real>
+			<real>692014948.56907701</real>
 			<key>title</key>
 			<string>Build chatApp</string>
 			<key>uniqueIdentifier</key>
-			<string>04D4F69B-AE79-4D5E-A811-F2D9667A3067</string>
+			<string>702B22AB-D26C-4B6D-A96E-44E1E3B4FEC2</string>
 		</dict>
-		<key>DF2FB0D4-ED8F-44C8-8653-B9C8A1DA102B</key>
+		<key>9272906E-7515-4DCD-AF68-E938B4181A84</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>DF2FB0D4-ED8F-44C8-8653-B9C8A1DA102B.xcactivitylog</string>
+			<string>9272906E-7515-4DCD-AF68-E938B4181A84.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,13 +134,13 @@
 			<key>signature</key>
 			<string>Build chatApp</string>
 			<key>timeStartedRecording</key>
-			<real>692009798.48788404</real>
+			<real>692015054.08257604</real>
 			<key>timeStoppedRecording</key>
-			<real>692009801.50643694</real>
+			<real>692015057.09593701</real>
 			<key>title</key>
 			<string>Build chatApp</string>
 			<key>uniqueIdentifier</key>
-			<string>DF2FB0D4-ED8F-44C8-8653-B9C8A1DA102B</string>
+			<string>9272906E-7515-4DCD-AF68-E938B4181A84</string>
 		</dict>
 	</dict>
 </dict>
