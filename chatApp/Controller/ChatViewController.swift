@@ -25,9 +25,12 @@ class ChatViewController: UIViewController {
     }
     
     func loadMessage() {
-        message = []
         
-        db.collection(Constant.FStore.collectionName).getDocuments { querySnapshot, error in
+        
+        db.collection(Constant.FStore.collectionName).order(by: Constant.FStore.dateField).addSnapshotListener{ querySnapshot, error in
+            
+            self.message = []
+            
             if let e = error {
                 print("There is some retreiving error. \(e)")
             } else {
@@ -52,7 +55,7 @@ class ChatViewController: UIViewController {
     @IBAction func sendPressed(_ sender: UIButton) {
         
         if let messageBody = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
-            db.collection(Constant.FStore.collectionName).addDocument(data: [Constant.FStore.senderField: messageSender, Constant.FStore.bodyField: messageBody]) { error in
+            db.collection(Constant.FStore.collectionName).addDocument(data: [Constant.FStore.senderField: messageSender, Constant.FStore.bodyField: messageBody, Constant.FStore.dateField:Date().timeIntervalSince1970]) { error in
                 if let e = error {
                     print("There was an issue saving data to firestore, \(e)")
                 } else {
@@ -67,7 +70,8 @@ class ChatViewController: UIViewController {
     
         do {
                     try Auth.auth().signOut()
-                    navigationController?.popToRootViewController(animated: true)
+                    navigationController?.popViewController(animated: true)
+                    
                     
                 } catch let signOutError as NSError {
                   print ("Error signing out: %@", signOutError)
